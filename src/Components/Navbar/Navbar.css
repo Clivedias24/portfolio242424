@@ -4,7 +4,6 @@
     justify-content: space-between;
     margin: 20px 170px;
 }
-
 .nav-menu{
     display: flex;
     align-items: center;
@@ -51,7 +50,7 @@
     display: none;
 }
 
-@media(max-width:768px){
+@media(max-width:500px){
     .navbar{
         margin: 20px 50px;
     }

@@ -17,7 +17,7 @@ const About = () => {
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, natus? Tenetur sapiente sed, libero voluptatem non dolorem aut eos suscipit.</p>
+                    <p>hiLorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, natus? Tenetur sapiente sed, libero voluptatem non dolorem aut eos suscipit.</p>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, delectus tempore deleniti blanditiis earum nobis?</p>                
                 </div>
                 <div className="about-skills">
