@@ -118,10 +118,10 @@
     transition: 0.3s;
 }
 
-@media(max-width:768px){
+@media(max-width:500px){
     .contact{
         gap: 50px;
-        margin: 50px 70px;
+        margin: 50px 30px;
         align-items: start;
     }
     .contact-title h1{
@@ -160,12 +160,12 @@
     }
 
     .contact-right input{
-        width: 100%;
+        width: 95%;
         font-size: 20px;
     }
 
     .contact-right textarea{
-        width: 95%;
+        width: 87%;
         font-size: 20px;
     }
 

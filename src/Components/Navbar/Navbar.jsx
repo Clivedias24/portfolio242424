@@ -24,7 +24,7 @@ const navbar = () => {
     <div className ='navbar'>
       <img src={logo} alt="" />
       <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open'/>
-      <ul ref={menuRef} className="nav-menu">
+      <ul ref={menuRef} className="nav-menu" style={{ right: openMenu ? "0" : "-350px" }}>
         <img src={menu_close} onClick={closeMenu} alt="" className='nav-mob-close'/>
         <li><AnchorLink className='anchor-link' href='#home'><p onClick={()=>setMenu("home")}>Home</p></AnchorLink>{menu==="home"?<img src={nav_underline} alt=''/>:<></>}</li>
         <li><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={()=>setMenu("about")}>About Me</p></AnchorLink>{menu==="about"?<img src={nav_underline} alt=''/>:<></>}</li>
